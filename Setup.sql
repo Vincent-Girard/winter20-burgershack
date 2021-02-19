@@ -1,14 +1,33 @@
-USE goodburger;
+USE leburgershack;
 
--- CREATE TABLE burgers
--- (
---   id INT AUTO_INCREMENT,
---   name VARCHAR(255) NOT NULL UNIQUE,
---   description VARCHAR(255),
---   price DECIMAL(6 , 2) NOT NULL,
+ /* CREATE TABLE burgers
+ (
+   id INT AUTO_INCREMENT,
+   name VARCHAR(255) NOT NULL UNIQUE,
+  description VARCHAR(255),
+  price DECIMAL(6 , 2) NOT NULL,
 
---   PRIMARY KEY (id)
--- );
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE fries
+ (
+   id INT AUTO_INCREMENT,
+   size VARCHAR(255) NOT NULL UNIQUE,
+  price DECIMAL(6 , 2) NOT NULL,
+
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE drinks
+ (
+   id INT AUTO_INCREMENT,
+   size VARCHAR(255) NOT NULL UNIQUE,
+   description VARCHAR(255),
+  price DECIMAL(6 , 2) NOT NULL,
+
+  PRIMARY KEY (id)
+); */
 
 -- DECIMAL( NUMS , NUMSPASTDEC)
 
